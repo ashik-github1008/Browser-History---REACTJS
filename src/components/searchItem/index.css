@@ -1,0 +1,49 @@
+* {
+  font-family: 'Roboto';
+}
+
+.history-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time {
+  color: #475569;
+  font-weight: 500;
+}
+
+.domain-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.domain-logo {
+  width: 24px;
+  align-self: flex-start;
+}
+
+.delete-icon {
+  align-self: flex-start;
+}
+
+.domain-name {
+  color: #475569;
+  font-weight: 500;
+}
+
+.domain-url {
+  color: #64748b;
+}
+
+.delete-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-btn:focus{
+  outline: none;
+}
